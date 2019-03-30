@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.centrar__contenido{
+    max-width: 1380px;
+    margin: auto;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.centrar__contenido1{
+    max-width: 1200px;
+    margin: auto;
+}
+.top-header{
+    margin: 0;
+    background: #3E3E3E;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.logo{
+    margin-left: 6%;
+    width: 9.8em;
+    padding-top: 5px;
+    
+}
+
+.count{
+    padding-top: 15px;
+    padding-right: 100px;
+    float: right ; 
+    word-spacing: 1em;
+}
+
+.count> a{
+    color: white;   
+    
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+.a{
+    color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.navigation-header{
+    background-color: #3C948B;
+    background: #3c948b;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;   
+    padding-left: 30px;
+    
+}
+
+.list{  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 12px;
+    padding: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    display: inline-block;
+    font-size: 15px;
+}
+
+.list:hover{
+    background: #3E3E3E;
+}
+
+.anuncio{
+    background:#EEEDE5;
+    margin-top:1em;
+    padding: 1.5em;
+    margin-left: 6%;
+    width: 86%;
+    -webkit-box-shadow: 0px 0px 4px 1.5px rgba(224,224,224,0.82);
+    -moz-box-shadow: 0px 0px 4px 1.5px rgba(224,224,224,0.82);
+    box-shadow: 0px 0px 4px 1.5px rgba(224,224,224,0.82);
+}
+
+.publicidad{
+    background:#EEEDE5;
+    margin-top:1em;
+    padding: 1.5em;
+    margin-left: 6%;
+    width: 86%;
+}
+
+.s{
+    word-spacing: 1.5em;
+    font-size: 0.9em;
+}
+
+.list2{  
+    padding: 10px;
+    margin-left: 17px;
+    display: inline-block;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.list2:hover{
+    color:white;
+    background:#3c948b;
+}
+
+.title{
+    margin-left: 6%;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 250%;
+}
+
+.orden{
+    margin-left: 25px;
+}
+
+.description{
+    margin-left: 6%;
+    max-width: 86%;
+    overflow: hidden;
+    display: flex;
+
+    
+}
+
+.sabrina{
+    padding-top: 5px;
+    width: 40%;
+    max-width: 300px;
+
+}
+
+.text{
+    width: 95%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 10px;
+    font-size: 15px;
+    padding-left: 1.5em;    
+}
+
+.box-principal{
+    background:#F7F7F7;
+    width: 150%;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-shadow: 0px 0px 31px -1px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 31px -1px rgba(224,224,224,1);
+    box-shadow: 0px 0px 31px -1px rgba(224,224,224,1);
+}
+
+.box{
+    margin-left: 10%;
+}
+
+.box > h1{
+    font-size: 2em;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.EpisodeInfo{
+    margin-left: 6%;
+    margin-top: 2em;
+}
+
+.NextEpisode{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+.epi_princ{
+    width: 100%;
+    display: flex;
+}
+
+.epi{
+    width: 5%;
+}
+
+.epi2{
+    width: 30%;
+    
+}
+
+.fec{
+    width: 3.5em;
+}
+
+.watch{
+    margin-top: 2em;
+    padding-left: 40px;
+}
+
+.NameEpisode{
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3c948b;
+}
+
+.date{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Previous{
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Episodes{
+    margin-left: 6%;
+    font-size: 15px;
+    
+}
+
+.Extra{
+    background:white;
+    width: 29%;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-shadow: 0px 0px 31px -1px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 31px -1px rgba(224,224,224,1);
+    box-shadow: 0px 0px 31px -1px rgba(224,224,224,1);
+}
+
+.details{
+    margin-left: 10%;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60.8%;
+    font-family: 'Open Sans', sans-serif;
+    border: 0.2px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+.seg_tabla{
+    background: white;
+}
+
+tr{background-color: #F2F1F1}
+
+th {
+    background-color: #F9F9F9;
+    color: black;
+}
+
+.cast{
+    max-width: 48em;
+    margin-left: 6%;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.cast-title{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1.5%;
+    width: 100%;
+}
+
+.actor{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    margin: 10px 0 ;
+    background: red;
+}
+
+.actor__titulo{
+    width: 55%;
+    float: left;
+    overflow: auto;
+    padding-left: 1em;
+    display: flex;
+    background: lightblue;    
+}
+
+.actor__imagen{
+    position: relative;
+    width: 37%;
+    float: left;
+    float: left;
+}
+
+.actor__imagen img{
+    max-width: 120px;
+}
+
+.actor__titulo{
+    float: left;
+    padding: 10px;
+    width: 60%;
+    background: green;
+}
+
+.actor__titulo__nombre{
+    position: relative;
+    width: 100%;
+    float: right; 
+    font-family: 'Open Sans', sans-serif;
+    background: gray;
+}
+
+.actor__titulo__interprete {
+    font-size: 1em;
+    width: 20%;
+    font-family: 'Open Sans', sans-serif;
+    background: brown;
+    
+}
+
+.link--titulo{
+    
+    font-size: 1.3em;
+    color: #3C948B;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+    color: #3C948B;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #3C948B;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+
